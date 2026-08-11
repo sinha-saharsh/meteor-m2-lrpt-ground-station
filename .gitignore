@@ -1,0 +1,107 @@
+# ============================================================
+# MATLAB
+# ============================================================
+
+# MATLAB autosave files
+*.asv
+
+# MATLAB backup files
+*.m~
+
+# MATLAB generated files
+*.mex*
+*.p
+
+# MATLAB generated figures
+*.fig
+
+# MATLAB code analyzer / project files
+*.mlproj
+*.prj
+
+# MATLAB preferences
+matlab.prf
+
+
+# ============================================================
+# SDR / RF RECORDINGS
+# ============================================================
+
+# Raw IQ recordings
+*.cf32
+*.cfile
+*.iq
+*.raw
+*.wav
+
+# SDR recordings can become extremely large
+recordings/
+data/raw/
+
+
+# ============================================================
+# Generated Data
+# ============================================================
+
+# Generated CSV files
+data/generated/
+results/generated/
+
+# Temporary MATLAB output
+tmp/
+temp/
+
+
+# ============================================================
+# Python (if used later)
+# ============================================================
+
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+
+# ============================================================
+# Operating System Files
+# ============================================================
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+Desktop.ini
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+
+
+# ============================================================
+# Editors / IDEs
+# ============================================================
+
+.vscode/
+.idea/
+
+
+# ============================================================
+# Logs
+# ============================================================
+
+*.log
+
+
+# ============================================================
+# Temporary / Backup Files
+# ============================================================
+
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
